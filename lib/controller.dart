@@ -459,7 +459,7 @@ class AppController {
     final currentProfileId = _ref.read(currentProfileIdProvider);
     final profiles = _ref.read(profilesProvider);
     final profile = profiles.where((e) => e.id == currentProfileId).firstOrNull;
-    final profileName = profile?.label ?? 'Bettbox';
+    final profileName = profile?.label ?? appName;
     final needsSync =
         vpn_service.service?.needsSpeedNotificationSync(profileName) ?? false;
     return needsSync ? profileName : null;

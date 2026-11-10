@@ -39,9 +39,9 @@ object GlobalState {
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
     private val mainHandler = Handler(Looper.getMainLooper())
 
-    const val NOTIFICATION_CHANNEL = "Bettbox"
-    const val NOTIFICATION_CHANNEL_HIGH = "Bettbox_High"
-    const val NOTIFICATION_CHANNEL_SUSPENDED = "Bettbox_Suspended"
+    const val NOTIFICATION_CHANNEL = "HuoBox"
+    const val NOTIFICATION_CHANNEL_HIGH = "HuoBox_High"
+    const val NOTIFICATION_CHANNEL_SUSPENDED = "HuoBox_Suspended"
     const val NOTIFICATION_ID = 1
 
     private const val TOGGLE_DEBOUNCE_MS = 1000L

@@ -5,7 +5,7 @@ class AppIdentity {
   static const isDev = _useDevIdentity;
   static const isLite = _useLiteBuild;
 
-  static const productName = 'Bettbox';
+  static const productName = 'HuoBox';
   static const devSuffix = 'Dev';
   static const packageId = 'com.huolala.netcafe';
 

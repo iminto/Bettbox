@@ -180,7 +180,7 @@
             android:name=".services.BettboxTileService"
             android:exported="true"
             android:icon="@drawable/ic_tile"
-            android:label="Bettbox"
+            android:label="HuoBox"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             tools:targetApi="n">
             <intent-filter>

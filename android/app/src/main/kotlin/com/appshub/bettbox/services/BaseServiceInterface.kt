@@ -113,9 +113,9 @@ fun Service.ensureNotificationChannel(
             else -> NotificationManager.IMPORTANCE_LOW
         }
         val name = when {
-            isSuspended -> "Bettbox Suspended Service"
-            isHighPriority -> "Bettbox High Priority Service"
-            else -> "Bettbox Service"
+            isSuspended -> "HuoBox Suspended Service"
+            isHighPriority -> "HuoBox High Priority Service"
+            else -> "HuoBox Service"
         }
         val newChannel = NotificationChannel(channelId, name, importance).apply {
             setShowBadge(false)

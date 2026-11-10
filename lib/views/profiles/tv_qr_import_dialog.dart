@@ -492,7 +492,7 @@ class _TvQrImportDialogState extends State<TvQrImportDialog> {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Bettbox</title>
+<title>HuoBox</title>
 <style>
 :root {
   --bg-gradient: radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.08) 0px, transparent 50%),
@@ -845,7 +845,7 @@ textarea {
     <button type="button" class="lang-btn" id="lang-btn" onclick="toggleLang()">English</button>
   </div>
   <div class="header">
-    <h1>📺 Bettbox</h1>
+    <h1>📺 HuoBox</h1>
     <p id="t-subtitle">推送配置至 Android TV 电视端</p>
   </div>
   <div class="tabs">
